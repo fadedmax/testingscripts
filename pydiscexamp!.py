@@ -1,0 +1,5 @@
+my_number = input("Enter number:")
+print("Processing...")
+split_number = list(str(my_number))
+print("Split number:")
+print(split_number)
