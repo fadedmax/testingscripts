@@ -20,7 +20,7 @@ class PingCommand(utils.Cog):
         # make it lowercase
         domainlower = randomdomain.lower()
 
-        await ctx.send(f{name}.{domainlower}")
+        await ctx.send(f"{name}.{domainlower}")
 
 
 def setup(bot:utils.Bot):
